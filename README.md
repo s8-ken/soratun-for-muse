@@ -1,4 +1,4 @@
-# soratun-patched — 制限付きネットワーク環境向け SORACOM Arc クライアント
+# soratun-for-muse — 制限付きネットワーク環境向け SORACOM Arc クライアント
 
 AI エージェント用サンドボックス VM のような、**通常とは異なるネットワーク制限が課された環境**でも
 [SORACOM Arc](https://soracom.jp/services/arc/)（WireGuard ベースの仮想 SIM 接続サービス）を利用できるように、
