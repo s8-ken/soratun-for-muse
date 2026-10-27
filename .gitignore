@@ -1,0 +1,29 @@
+# --- SORACOM / WireGuard secrets: NEVER commit real values ---
+# (examples/arc.json.example contains dummy values only and is tracked)
+arc.json
+device_private_key.txt
+*private*key*
+*.key
+*.pem
+
+# --- logs & runtime state ---
+*.log
+logs/
+run/
+
+# --- build artifacts ---
+soratun
+soratun-patched
+*.test
+
+# --- Go toolchain / caches (never vendored here) ---
+go/
+gopath/
+gocache/
+bin/
+
+# --- editor / OS ---
+.DS_Store
+*.swp
+.idea/
+.vscode/

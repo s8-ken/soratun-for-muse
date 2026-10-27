@@ -1,0 +1,10 @@
+diff --git a/third_party/soratun/go.mod b/third_party/soratun/go.mod
+index c3ea255..8bb1299 100644
+--- a/third_party/soratun/go.mod
++++ b/third_party/soratun/go.mod
+@@ -33,3 +33,5 @@ require (
+ 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
+ 	gopkg.in/yaml.v3 v3.0.1 // indirect
+ )
++
++replace golang.zx2c4.com/wireguard => ../wireguard-go
